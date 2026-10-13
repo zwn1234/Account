@@ -13,5 +13,6 @@ public class Main {
 
         a = new Account("SammyB3");
         System.out.println(a.getShortenedName());
+        System.out.println("Does everything work?");
     }
 }
