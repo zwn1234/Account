@@ -20,8 +20,12 @@ public class Account {
         String shortName = username;
         int hyphen = shortName.indexOf("-");
         while (hyphen > 0) {
+<<<<<<< HEAD
             shortName = shortName.substring(0, hyphen - 1) + shortName.substring(hyphen + 1);
             hyphen = shortName.indexOf("-");
+=======
+            shortName = shortName.substring(0, hyphen - 1) + shortName.substring (hyphen + 1);
+>>>>>>> 93fca4a5410bbc729131acf5bb395dbf418fadb0
         }
         return shortName;
     }
